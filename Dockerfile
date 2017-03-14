@@ -1,7 +1,7 @@
 FROM jboss/base-jdk:8
 MAINTAINER Erik Jacobs <erikmjacobs@gmail.com>
 
-ENV SONAR_VERSION=6.0 \
+ENV SONAR_VERSION=6.2 \
     SONARQUBE_HOME=/opt/sonarqube
 
 USER root
